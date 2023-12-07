@@ -1,0 +1,36 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #2c3e50, #3498db);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    margin-top: 50px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+h1, h2 {
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #3498db;
+}
+
+/* Optional: Add some padding and box shadow to make it visually appealing */
+.container-fluid {
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
